@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <h1 class="title-h1">Trilhas</h1>
+
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start" class="img-container">
+        <img src="../../assets/icon/imersao-agil.png">
+      </ion-avatar>
+      <ion-label [routerLink]="['/imersao-agil']">Imersão Ágil
+        <p>Gestão ágil, Scrum, inteligência emocional e Trello</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start" class="img-container">
+        <img src="../../assets/icon/frontend.png">
+      </ion-avatar>
+      <ion-label>Frontend
+        <p>HTML, CSS, JavaScript, TypeScript, Angular, Ionic, Json e JQuery</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start" class="img-container">
+        <img src="../../assets/icon/backend.png">
+      </ion-avatar>
+      <ion-label>Backend
+        <p>Node.js, Rest API, Java, Maven, Spring Tools, JPA, MySQL, Workbench, MongoDB</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,36 @@
+.title-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+ion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+ion-label {
+  cursor: pointer;
+}
+
+ion-label p {
+  white-space: normal;
+  margin-top: 3px;
+}
+
+.img-container{
+  width: 50px;
+}
+
+img {
+  width: 46px;
+  height: 46px;
+
+}
